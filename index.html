@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cem ÖZGELDİ Tanıtım Sayfası</title>
+        <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta name="keywords" content="JavaScript,HTML5,CSS3">
+    <meta name="description" content="Cem ÖZGELDİ Tanıtım Sayfası">
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <!--Tablet-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css"/>
+    <!--Mobile-->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css"/>
+
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Cem ÖZGELDİ</h1>
+
+                <ul>
+                    <li><a href="home">Ana Sayfa</a></li>
+                    <li><a href="works">İşler</a></li>
+                    <li><a href="contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="images/output-onlinejpgtools.jpg" alt="Cem ÖZGELDİ">
+    <div class="name text-center">
+        <h2 class="heading-big">Cem ÖZGELDİ</h2>
+        <p>Front-End Developer</p>
+    </div>
+    <a href="#contact" class="btn btn-primary ">İletişim İçin</a>
+    
+    </section>
+
+    <section id="works" class="bg-dark-blue">
+
+        <h3 class="text-center heading-medium">İşler</h3>
+        <div class="items">
+
+            <article class="item">
+                <i class="fa fa-briefcase"></i>
+                <h3>Projeler</h3>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, numquam!</p>
+             </article>
+            <article class="item">
+                <i class="fa fa-briefcase"></i>
+                <h3>Projeler</h3>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, numquam!</p>
+             </article>
+            <article class="item">
+                <i class="fa fa-briefcase"></i>
+                <h3>Projeler</h3>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, numquam!</p>
+             </article>
+        </div>
+
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input 
+                     type="text" 
+                     class="form-control" 
+                     name="name" id ="name" 
+                     placeholder="İsim"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input 
+                     type="text" 
+                     class="form-control" 
+                     name="email" id ="email" 
+                     placeholder="Email"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea 
+                     class="form-control" 
+                     name="message" id ="mesage" 
+                     placeholder="Mesajınız.."
+                     rows="5"
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+            
+            <ul>
+                <li><a href="#"><i class = "fab fa-facebook" ></i></a></li>
+                <li><a href="#"><i class = "fab fa-twitter" ></i></a></li>
+                <li><a href="#"><i class = "fab fa-github" ></i></a></li>
+                <li><a href="#"><i class = "fab fa-linkedin" ></i></a></li>
+            </ul>
+
+        </div>
+    </footer>
+</body>
+</html>
